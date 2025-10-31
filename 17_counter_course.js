@@ -9,8 +9,8 @@ function startCounter() {
         clearInterval(countInterval);
         return;
     }
-    if (number < 1 || number > 9) {
-        alert("Range out of bounds");
+    if (number < 1 || number > 100) {
+        alert("Range out of bounds (allowed: 1 to 100)");
         clearInterval(countInterval);
         return;
     }
